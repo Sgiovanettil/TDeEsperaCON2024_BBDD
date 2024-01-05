@@ -1,0 +1,40 @@
+DELETE FROM mydb.VALUE_SET T WHERE T.ID_TIPO_VALUE_SET = 7;
+COMMIT;
+
+DELETE FROM mydb.TIPO_VALUE_SET T WHERE T.ID_TIPO_VALUE_SET = 7;
+COMMIT;
+
+INSERT INTO mydb.TIPO_VALUE_SET(ID_TIPO_VALUE_SET, NOM_VALUE_SET, NOM_VALUE_SET_FHIR) VALUES(7, 'TITULOS MEDICOS', 'TITULOS MEDICOS');
+COMMIT;
+
+INSERT INTO mydb.VALUE_SET(ID_VALOR, ID_TIPO_VALUE_SET, CODE, `SYSTEM`, DISPLAY) VALUES (741,7,REPLACE('  1', ' ', ''),'https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSTituloProfesional','MÉDICO CIRUJANO');
+INSERT INTO mydb.VALUE_SET(ID_VALOR, ID_TIPO_VALUE_SET, CODE, `SYSTEM`, DISPLAY) VALUES (742,7,REPLACE('  2', ' ', ''),'https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSTituloProfesional','CIRUJANO DENTISTA');
+INSERT INTO mydb.VALUE_SET(ID_VALOR, ID_TIPO_VALUE_SET, CODE, `SYSTEM`, DISPLAY) VALUES (743,7,REPLACE('  3', ' ', ''),'https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSTituloProfesional','ENFERMERAS(OS)');
+INSERT INTO mydb.VALUE_SET(ID_VALOR, ID_TIPO_VALUE_SET, CODE, `SYSTEM`, DISPLAY) VALUES (744,7,REPLACE('  4', ' ', ''),'https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSTituloProfesional','ENFERMERAS(OS) MATRONAS(ES)');
+INSERT INTO mydb.VALUE_SET(ID_VALOR, ID_TIPO_VALUE_SET, CODE, `SYSTEM`, DISPLAY) VALUES (745,7,REPLACE('  5', ' ', ''),'https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSTituloProfesional','MATRONAS(ES)');
+INSERT INTO mydb.VALUE_SET(ID_VALOR, ID_TIPO_VALUE_SET, CODE, `SYSTEM`, DISPLAY) VALUES (746,7,REPLACE('  6', ' ', ''),'https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSTituloProfesional','TECNÓLOGOS MÉDICOS');
+INSERT INTO mydb.VALUE_SET(ID_VALOR, ID_TIPO_VALUE_SET, CODE, `SYSTEM`, DISPLAY) VALUES (747,7,REPLACE('  7', ' ', ''),'https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSTituloProfesional','PSICÓLOGOS/AS');
+INSERT INTO mydb.VALUE_SET(ID_VALOR, ID_TIPO_VALUE_SET, CODE, `SYSTEM`, DISPLAY) VALUES (748,7,REPLACE('  8', ' ', ''),'https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSTituloProfesional','KINESIÓLOGOS/AS');
+INSERT INTO mydb.VALUE_SET(ID_VALOR, ID_TIPO_VALUE_SET, CODE, `SYSTEM`, DISPLAY) VALUES (749,7,REPLACE('  9', ' ', ''),'https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSTituloProfesional','FARMACÉUTICOS Y QUÍMICO-FARMACÉUTICOS');
+INSERT INTO mydb.VALUE_SET(ID_VALOR, ID_TIPO_VALUE_SET, CODE, `SYSTEM`, DISPLAY) VALUES (750,7,REPLACE('  10', ' ', ''),'https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSTituloProfesional','BIOQUÍMICOS');
+INSERT INTO mydb.VALUE_SET(ID_VALOR, ID_TIPO_VALUE_SET, CODE, `SYSTEM`, DISPLAY) VALUES (751,7,REPLACE('  11', ' ', ''),'https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSTituloProfesional','NUTRICIONISTAS');
+INSERT INTO mydb.VALUE_SET(ID_VALOR, ID_TIPO_VALUE_SET, CODE, `SYSTEM`, DISPLAY) VALUES (752,7,REPLACE('  12', ' ', ''),'https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSTituloProfesional','FONOAUDIÓLOGOS/AS');
+INSERT INTO mydb.VALUE_SET(ID_VALOR, ID_TIPO_VALUE_SET, CODE, `SYSTEM`, DISPLAY) VALUES (753,7,REPLACE('  13', ' ', ''),'https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSTituloProfesional','TERAPEUTAS OCUPACIONALES');
+INSERT INTO mydb.VALUE_SET(ID_VALOR, ID_TIPO_VALUE_SET, CODE, `SYSTEM`, DISPLAY) VALUES (754,7,REPLACE('  14', ' ', ''),'https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSTituloProfesional','AUXILIARES PARAMÉDICOS DE ALIMENTACIÓN');
+INSERT INTO mydb.VALUE_SET(ID_VALOR, ID_TIPO_VALUE_SET, CODE, `SYSTEM`, DISPLAY) VALUES (755,7,REPLACE('  15', ' ', ''),'https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSTituloProfesional','A.P. DE RADIOLOGÍA, RADIOTERAPIA, LAB');
+INSERT INTO mydb.VALUE_SET(ID_VALOR, ID_TIPO_VALUE_SET, CODE, `SYSTEM`, DISPLAY) VALUES (756,7,REPLACE('  16', ' ', ''),'https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSTituloProfesional','AUXILIARES PARAMÉDICOS DE ODONTOLOGÍA');
+INSERT INTO mydb.VALUE_SET(ID_VALOR, ID_TIPO_VALUE_SET, CODE, `SYSTEM`, DISPLAY) VALUES (757,7,REPLACE('  17', ' ', ''),'https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSTituloProfesional','AUXILIARES PARAMÉDICOS DE FARMACIA');
+INSERT INTO mydb.VALUE_SET(ID_VALOR, ID_TIPO_VALUE_SET, CODE, `SYSTEM`, DISPLAY) VALUES (758,7,REPLACE('  18', ' ', ''),'https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSTituloProfesional','AUXILIARES DE ENFERMERÍA');
+INSERT INTO mydb.VALUE_SET(ID_VALOR, ID_TIPO_VALUE_SET, CODE, `SYSTEM`, DISPLAY) VALUES (759,7,REPLACE('  19', ' ', ''),'https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSTituloProfesional','TÉCNICO EN NIVEL SUPERIOR EN SALUD');
+INSERT INTO mydb.VALUE_SET(ID_VALOR, ID_TIPO_VALUE_SET, CODE, `SYSTEM`, DISPLAY) VALUES (760,7,REPLACE('  20', ' ', ''),'https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSTituloProfesional','TÉCNICOS EN SALUD');
+INSERT INTO mydb.VALUE_SET(ID_VALOR, ID_TIPO_VALUE_SET, CODE, `SYSTEM`, DISPLAY) VALUES (761,7,REPLACE('  21', ' ', ''),'https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSTituloProfesional','TÉCNICOS NIVEL MEDIO EN SALUD');
+INSERT INTO mydb.VALUE_SET(ID_VALOR, ID_TIPO_VALUE_SET, CODE, `SYSTEM`, DISPLAY) VALUES (762,7,REPLACE('  22', ' ', ''),'https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSTituloProfesional','LABORATORISTAS DENTALES');
+INSERT INTO mydb.VALUE_SET(ID_VALOR, ID_TIPO_VALUE_SET, CODE, `SYSTEM`, DISPLAY) VALUES (763,7,REPLACE('  23', ' ', ''),'https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSTituloProfesional','PODÓLOGOS/AS');
+INSERT INTO mydb.VALUE_SET(ID_VALOR, ID_TIPO_VALUE_SET, CODE, `SYSTEM`, DISPLAY) VALUES (764,7,REPLACE('  24', ' ', ''),'https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSTituloProfesional','ÓPTICOS/AS');
+INSERT INTO mydb.VALUE_SET(ID_VALOR, ID_TIPO_VALUE_SET, CODE, `SYSTEM`, DISPLAY) VALUES (765,7,REPLACE('  25', ' ', ''),'https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSTituloProfesional','CONTACTÓLOGOS/AS');
+INSERT INTO mydb.VALUE_SET(ID_VALOR, ID_TIPO_VALUE_SET, CODE, `SYSTEM`, DISPLAY) VALUES (766,7,REPLACE('  26', ' ', ''),'https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSTituloProfesional','HOMEÓPATAS');
+INSERT INTO mydb.VALUE_SET(ID_VALOR, ID_TIPO_VALUE_SET, CODE, `SYSTEM`, DISPLAY) VALUES (767,7,REPLACE('  27', ' ', ''),'https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSTituloProfesional','ACUPUNTURISTAS');
+INSERT INTO mydb.VALUE_SET(ID_VALOR, ID_TIPO_VALUE_SET, CODE, `SYSTEM`, DISPLAY) VALUES (768,7,REPLACE('  28', ' ', ''),'https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSTituloProfesional','NATURÓPATAS');
+INSERT INTO mydb.VALUE_SET(ID_VALOR, ID_TIPO_VALUE_SET, CODE, `SYSTEM`, DISPLAY) VALUES (769,7,REPLACE('  29', ' ', ''),'https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSTituloProfesional','COSMETÓLOGOS/AS');
+INSERT INTO mydb.VALUE_SET(ID_VALOR, ID_TIPO_VALUE_SET, CODE, `SYSTEM`, DISPLAY) VALUES (770,7,REPLACE('  99', ' ', ''),'https://interoperabilidad.minsal.cl/fhir/ig/tei/CodeSystem/CSTituloProfesional','DESCONOCIDA');
+COMMIT;

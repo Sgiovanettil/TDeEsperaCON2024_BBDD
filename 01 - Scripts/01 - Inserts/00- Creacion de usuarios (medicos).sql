@@ -1,0 +1,23 @@
+INSERT INTO `mydb`.`MEDICO`
+(`ID_MEDICO`,
+`COD_RNPI`,
+`NRO_RUT`,
+`DV_RUT`,
+`NOMBRES_MEDICO`,
+`APEPAT_MEDICO`,
+`APEMAT_MEDICO`,
+`COD_TITULO`,
+`NOM_USUARIO`,
+`PASS_USUARIO`)
+VALUES
+(1,
+'123456',
+'16014394',
+'0',
+'Sebastián Antonio',
+'Giovanetti',
+'Lehmann',
+NULL,
+'sgiovanetti',
+'123456');
+COMMIT;
