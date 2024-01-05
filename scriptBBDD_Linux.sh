@@ -29,9 +29,6 @@ function ejecutar_scripts() {
 # Ejecutar script de creación de base de datos
 ejecutar_scripts "$CREATION_DIR"
 
-# Actualizar DATABASE para las inserciones
-DATABASE="mydb"
-
 # Ejecutar scripts de inserciones
 ejecutar_scripts "$INSERTS_DIR"
 
