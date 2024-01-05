@@ -11,13 +11,13 @@ INSERT INTO `mydb`.`MEDICO`
 `PASS_USUARIO`)
 VALUES
 (1,
-'123456',
-'16014394',
-'0',
-'Sebastián Antonio',
-'Giovanetti',
-'Lehmann',
-NULL,
-'sgiovanetti',
+'992323',
+'11520715',
+'6',
+'Ernesto',
+'Sepúlveda',
+'',
+'1',
+'esepulveda',
 '123456');
 COMMIT;
