@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Parámetros de conexión a la base de datos
-HOST="localhost"
+HOST="127.0.0.1"
 USER="root"
 PASSWORD="Password123#@!"
 
