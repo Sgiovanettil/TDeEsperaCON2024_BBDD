@@ -16,7 +16,7 @@ VALUES
 '6',
 'Ernesto',
 'Sepúlveda',
-'',
+'Manriquez',
 '1',
 'esepulveda',
 '123456');

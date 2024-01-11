@@ -6,8 +6,8 @@ USER="root"
 PASSWORD="Password123#@!"
 
 # Directorios de los scripts
-CREATION_DIR="/home/sgiovanetti/ProyectosGit/hl7BD_Mysql/01 - Scripts/00 - Creacion BBDD"
-INSERTS_DIR="/home/sgiovanetti/ProyectosGit/hl7BD_Mysql/01 - Scripts/01 - Inserts"
+CREATION_DIR="/home/sgiovanetti/ProyectosGit/TDeEsperaCON2024_BBDD/01 - Scripts/00 - Creacion BBDD"
+INSERTS_DIR="/home/sgiovanetti/ProyectosGit/TDeEsperaCON2024_BBDD/01 - Scripts/01 - Inserts"
 
 # Función para ejecutar scripts en un directorio
 function ejecutar_scripts() {
