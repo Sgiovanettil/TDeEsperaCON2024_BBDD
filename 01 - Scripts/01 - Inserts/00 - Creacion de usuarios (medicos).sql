@@ -12,8 +12,8 @@ INSERT INTO `mydb`.`MEDICO`
 VALUES
 (1,
 '992323',
-'11520715',
-'6',
+'10111111',
+'K',
 'Ernesto',
 'Sepúlveda',
 'Manriquez',
